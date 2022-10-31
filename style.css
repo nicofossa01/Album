@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 95vw;
+    margin: auto;
+}
+
+
+
+.header1{
+    height: 18vh;
+    display: table;
+}
+
+.plus{
+    color: rgb(52,129,208);
+    font-size: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Poppins','Serial';
+}
+
+.header2{
+    width: 95vw;
+    height: 10vh;
+}
+
+.albums{
+    float: left;
+    font-family: 'Poppins';
+    font-size: 35px;
+}
+
+.see_all{
+    color: rgb(52,129,208);
+    font-family: 'Poppins';
+    float: right;
+}
+
+hr{
+    size: 1px;
+    color: rgb(245, 245, 245);
+}
+
+.container_photo{
+    float: left;
+    margin: 15px;
+    height: 200px;
+    width: calc(100%/6 - 30px);
+}
+
+.recent{
+    display: block;
+    font-family: 'Poppins','Serial';
+}
+
+.num{
+    display: block;
+    font-family: 'Poppins','Serial';
+    color: rgb(120, 120, 120);
+}
+
+.photo{
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+}
+
+.photo.p1{
+    background-image: url('img/1.jpg');
+}
+.photo.p2{
+    background-image: url('img/2.jpg');
+}
+.photo.p3{
+    background-image: url('img/3.jpg');
+}
+.photo.p4{
+    background-image: url('img/4.jpg');
+}
+.photo.p5{
+    background-image: url('img/5.jpg');
+}
+.photo.p6{
+    background-image: url('img/6.jpg');
+}
+.photo.p7{
+    background-image: url('img/7.jpg');
+}
+.photo.p8{
+    background-image: url('img/8.jpg');
+}
+.photo.p9{
+    background-image: url('img/9.jpg');
+}
+.photo.p10{
+    background-image: url('img/10.jpg');
+}
+.photo.p11{
+    background-image: url('img/11.jpg');
+}
+.photo.p12{
+    background-image: url('img/12.jpg');
+}
